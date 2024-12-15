@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.fitnesstracker.Controllers.AdminController"
+           alignment="CENTER"
+           style="-fx-background-color: linear-gradient(to bottom right, #f9f9f9, #e0e0e0);">
+
+    <VBox spacing="15" alignment="CENTER" maxWidth="600"
+          style="-fx-background-color: #ffffff; -fx-background-radius: 8; 
+                 -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10,0,0,2); 
+                 -fx-padding: 20;">
+
+        <!-- Заголовок страницы -->
+        <Label text="Admin Panel" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #6a11cb;"/>
+
+        <!-- Таблица с пользователями -->
+        <TableView fx:id="userTable" prefHeight="400" prefWidth="550"
+                   style="-fx-background-color: #f9f9f9; -fx-border-color: #cccccc; 
+                          -fx-border-radius: 8;">
+
+            <!-- Столбцы таблицы -->
+            <columns>
+                <TableColumn fx:id="colName" text="Name" prefWidth="150"
+                             style="-fx-alignment: CENTER_LEFT; -fx-font-weight: bold; -fx-background-color: #6a11cb; 
+                                    -fx-text-fill: white; -fx-font-size: 14px;"/>
+                <TableColumn fx:id="colEmail" text="Email" prefWidth="150"
+                             style="-fx-alignment: CENTER_LEFT; -fx-font-weight: bold; -fx-background-color: #6a11cb; 
+                                    -fx-text-fill: white; -fx-font-size: 14px;"/>
+                <TableColumn fx:id="colPhone" text="Phone" prefWidth="150"
+                             style="-fx-alignment: CENTER_LEFT; -fx-font-weight: bold; -fx-background-color: #6a11cb; 
+                                    -fx-text-fill: white; -fx-font-size: 14px;"/>
+                <TableColumn fx:id="colBmi" text="BMI" prefWidth="100"
+                             style="-fx-alignment: CENTER_LEFT; -fx-font-weight: bold; -fx-background-color: #6a11cb; 
+                                    -fx-text-fill: white; -fx-font-size: 14px;"/>
+            </columns>
+
+        </TableView>
+    </VBox>
+</StackPane>

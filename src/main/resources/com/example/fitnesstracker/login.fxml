@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.fitnesstracker.Controllers.LoginController"
+           alignment="CENTER"
+           stylesheets="@style.css"
+           style="-fx-background-color: linear-gradient(to bottom, #6a11cb, #2575fc);">
+
+    <!-- Основной контейнер -->
+    <VBox alignment="CENTER" spacing="25" maxWidth="400"
+          style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 40; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 15, 0, 0, 5);">
+
+        <!-- Логотип -->
+        <ImageView fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="https://cdn-icons-png.flaticon.com/512/4074/4074561.png" />
+            </image>
+        </ImageView>
+
+        <!-- Заголовок -->
+        <Label text="Welcome Back!" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #6a11cb;"/>
+
+        <!-- Поле Email -->
+        <VBox alignment="CENTER" spacing="10" prefWidth="320">
+            <HBox alignment="CENTER" spacing="15">
+                <ImageView fitHeight="24" fitWidth="24">
+                    <image>
+                        <Image url="https://cdn-icons-png.flaticon.com/128/646/646135.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="emailField" promptText="Enter your email"
+                           style="-fx-border-color: #6a11cb; -fx-border-radius: 15; -fx-background-radius: 15; -fx-background-color: #f9f9f9; -fx-padding: 10; -fx-font-size: 14px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);"
+                           prefWidth="280" prefHeight="40"/>
+            </HBox>
+        </VBox>
+
+        <!-- Поле Пароль -->
+        <VBox alignment="CENTER" spacing="10" prefWidth="320">
+            <HBox alignment="CENTER" spacing="15">
+                <ImageView fitHeight="24" fitWidth="24">
+                    <image>
+                        <Image url="https://cdn-icons-png.flaticon.com/128/8472/8472244.png" />
+                    </image>
+                </ImageView>
+                <PasswordField fx:id="passwordField" promptText="Enter your password"
+                               style="-fx-border-color: #6a11cb; -fx-border-radius: 15; -fx-background-radius: 15; -fx-background-color: #f9f9f9; -fx-padding: 10; -fx-font-size: 14px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);"
+                               prefWidth="280" prefHeight="40"/>
+            </HBox>
+        </VBox>
+
+        <!-- Кнопка Логина -->
+        <Button fx:id="loginButton" text="Login" onAction="#login"
+                style="-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);"
+                prefWidth="320" prefHeight="45"/>
+
+        <!-- Ссылка на регистрацию -->
+        <Hyperlink fx:id="registerLink" text="Don't have an account? Register here." onAction="#goRegister"
+                   style="-fx-text-fill: #6a11cb; -fx-font-size: 12px;"/>
+
+    </VBox>
+</StackPane>

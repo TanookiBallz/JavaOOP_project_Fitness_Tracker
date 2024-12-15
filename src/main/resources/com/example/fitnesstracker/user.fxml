@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.fitnesstracker.Controllers.UserController"
+           alignment="CENTER"
+           style="-fx-background-color: linear-gradient(to bottom, #6a11cb, #2575fc);">
+
+    <VBox spacing="20" alignment="CENTER" maxWidth="900"
+          style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 15, 0, 0, 5);">
+
+        <!-- Логотип -->
+        <ImageView fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="https://cdn-icons-png.flaticon.com/512/4074/4074561.png"/>
+            </image>
+        </ImageView>
+
+        <!-- Заголовок -->
+        <Label text="Your Dashboard" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #6a11cb;"/>
+
+        <!-- Контент -->
+        <HBox spacing="20" alignment="CENTER">
+
+            <!-- User Details -->
+            <VBox spacing="10" alignment="CENTER" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 10;">
+                <Label text="User Details" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <TextField fx:id="heightField" promptText="Height (m)" prefWidth="150"/>
+                <TextField fx:id="weightField" promptText="Weight (kg)" prefWidth="150"/>
+                <HBox spacing="5" alignment="CENTER">
+                    <Label text="Male?"/>
+                    <CheckBox fx:id="maleCheck"/>
+                </HBox>
+                <TextField fx:id="ageField" promptText="Age" prefWidth="150"/>
+                <Button text="Save Details" onAction="#saveDetails" style="-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-background-radius: 10;"/>
+                <Label fx:id="bmiLabel" text="BMI: --" style="-fx-font-size: 16px;"/>
+            </VBox>
+
+            <!-- Goals -->
+            <VBox spacing="10" alignment="CENTER" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 10;">
+                <Label text="Goals" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <TextField fx:id="goalField" promptText="New Goal" prefWidth="200"/>
+                <Button text="Add Goal" onAction="#addGoal" style="-fx-background-color: #28a745; -fx-text-fill: white; -fx-background-radius: 10;"/>
+                <ListView fx:id="goalsList" prefHeight="150" prefWidth="200"/>
+            </VBox>
+
+            <!-- Daily Activity -->
+            <VBox spacing="10" alignment="CENTER" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 10;">
+                <Label text="Daily Activity" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <TextField fx:id="stepsField" promptText="Steps" prefWidth="200"/>
+                <TextField fx:id="waterField" promptText="Water (ml)" prefWidth="200"/>
+                <TextField fx:id="caloriesField" promptText="Calories" prefWidth="200"/>
+                <Button text="Add Activity" onAction="#addActivity" style="-fx-background-color: #17a2b8; -fx-text-fill: white; -fx-background-radius: 10;"/>
+                <ListView fx:id="activityList" prefHeight="150" prefWidth="200"/>
+            </VBox>
+
+        </HBox>
+    </VBox>
+</StackPane>

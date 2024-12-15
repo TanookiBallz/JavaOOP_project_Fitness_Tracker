@@ -1,12 +1,15 @@
-module org.example.fitness_tracker {
+module com.example.fitnesstracker {
     requires javafx.controls;
     requires javafx.fxml;
+
     requires java.sql;
 
     requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
+    requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens org.example.fitness_tracker to javafx.fxml;
-    exports org.example.fitness_tracker;
+    opens com.example.fitnesstracker to javafx.fxml;
+    exports com.example.fitnesstracker;
+
+    opens com.example.fitnesstracker.Controllers to javafx.fxml;
 }
