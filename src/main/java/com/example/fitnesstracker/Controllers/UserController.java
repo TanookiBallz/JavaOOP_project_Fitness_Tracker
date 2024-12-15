@@ -91,7 +91,20 @@ public class UserController {
         }
     }
 
-    
+    public void addActivity(){
+        try {
+            int steps=Integer.parseInt(stepsField.getText());
+            int water=Integer.parseInt(waterField.getText());
+            int cals=Integer.parseInt(caloriesField.getText());
+            UserActivity ua=new UserActivity(0,user.getId(), LocalDate.now(),steps,water,cals);
+            UserActivityDAO.insertActivity(ua);
+            activityList.getItems().add(ua.getActivityDate()+" Steps:"+ua.getSteps()+" Water:"+ua.getWaterMl()+"ml Calories:"+ua.getCalories());
+            stepsField.clear();
+            waterField.clear();
+            caloriesField.clear();
+        }catch(Exception e){
+            Alert a=new Alert(AlertType.ERROR,"Invalid input");
+            a.showAndWait();
         }
     }
 }
