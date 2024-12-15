@@ -1,13 +1,7 @@
 package com.example.fitnesstracker.model;
 
 public class User {
-    private int id;
-    private String name;
-    private String email;
-    private String passwordHash;
-    private String phone;
-    private boolean isAdmin;
-    private boolean firstLogin;
+
     public User(){}
     public User(int id,String name,String email,String passwordHash,String phone,boolean isAdmin,boolean firstLogin){
         this.id=id;this.name=name;this.email=email;this.passwordHash=passwordHash;this.phone=phone;this.isAdmin=isAdmin;this.firstLogin=firstLogin;
