@@ -10,25 +10,25 @@ calculating BMI.
 
 
 3. 10 key functions:
- 1. DBConnection –
+  DBConnection –
 Manages the database connection. A core function for linking the application to the database.
- 2. AppController –
+  AppController –
 The main application controller that handles routing and coordinates user requests.
- 3. LoginController –
+   LoginController –
 Processes user authentication: verifies credentials and grants access.
- 4. RegisterController –
+    RegisterController –
 Handles the registration of new users by adding their data to the database.
- 5. UserController –
+    UserController –
 Manages user profiles, providing functionality for viewing and editing user data.
- 6. UserDAO –
+    UserDAO –
 Data Access Object for users. Contains functions for retrieving, adding, and updating user data.
- 7. UserDetailsDAO –
+    UserDetailsDAO –
 An additional DAO class for managing detailed user information, such as goals or activity.
- 8. GoalDAO –
+    GoalDAO –
 Manages user goals: adding, updating, and deleting fitness-related goals.
- 9. HashUtil –
+    HashUtil –
 A utility for hashing passwords. Ensures the security of stored sensitive data.
- 10. Main –
+    Main –
 The entry point of the application. Initializes key components and starts the program.
 
 These functions provide the core operations of the program: authentication, registration, database access, and managing users and their fitness goals.
