@@ -60,12 +60,7 @@ These functions provide the core operations of the program: authentication, regi
 
 
 7.How to run:
-Clone the repository.
-Open the project in IntelliJ IDEA.
-Set up database credentials in the configuration file.
-Run the application.
-To login as the admin use login "admin" and password "admin123"
-To login as the user use login "user" and password "user123"
+
 
 8.Links:
 
