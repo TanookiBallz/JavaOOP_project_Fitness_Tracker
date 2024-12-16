@@ -42,6 +42,10 @@ These functions provide the core operations of the program: authentication, regi
 
 
 5.Screenshots: 
+
+
+
+
 ![photo_2024-12-16_18-02-57](https://github.com/user-attachments/assets/a5b5067d-89a2-44f2-a820-2269f3885459)
 ![photo_2024-12-16_18-03-01](https://github.com/user-attachments/assets/9a21b239-c753-488c-a6d0-94bbc4e823bd)
 ![photo_2024-12-16_18-02-43](https://github.com/user-attachments/assets/41eab8f7-7263-43af-9808-8ae88eeafa28)
