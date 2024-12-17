@@ -55,7 +55,7 @@ These functions provide the core operations of the program: authentication, regi
 ![photo_2024-12-16_18-03-18](https://github.com/user-attachments/assets/24a09d74-7468-4c72-abe4-3e5610090825)
 
 
-6.UML Diпgram:https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing
+6.UML Diпgram:[https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing](https://www.canva.com/design/DAGZkRXeaDw/lwGaAhaJCcA3SZ0ruG08Og/edit?utm_content=DAGZkRXeaDw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
