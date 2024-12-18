@@ -64,7 +64,7 @@ These functions provide the core operations of the program: authentication, regi
 
 7.Links:
 
-presentation:[ [https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true](https://docs.google.com/presentation/d/18hP6t6vYIWNZ4gpubGWleYW40LQJlBRB/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true)](https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true)
+presentation:https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true
 documentation google docs: https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing
 
 
