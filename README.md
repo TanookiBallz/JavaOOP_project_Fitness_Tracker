@@ -1,5 +1,17 @@
 Fitness Tracker project
+Contributors:
+Kazakbaev Azizbek IEMIT-23
+Zhusupbekov Aktan IEMIT-23
+Almazov Aidarbek IEMIT-23
 
+6.UML Diпgram:[https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing](https://www.canva.com/design/DAGZkRXeaDw/lwGaAhaJCcA3SZ0ruG08Og/edit?utm_content=DAGZkRXeaDw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+7.Links:
+
+presentation:https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true
+documentation google docs: https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing
 
 1. Project title: Fitness Tracker
 
@@ -55,24 +67,11 @@ These functions provide the core operations of the program: authentication, regi
 ![photo_2024-12-16_18-03-18](https://github.com/user-attachments/assets/24a09d74-7468-4c72-abe4-3e5610090825)
 
 
-6.UML Diпgram:[https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing](https://www.canva.com/design/DAGZkRXeaDw/lwGaAhaJCcA3SZ0ruG08Og/edit?utm_content=DAGZkRXeaDw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-
-7.Links:
-
-presentation:https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true
-documentation google docs: https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing
-
-
-
-8.Contributors:
-Kazakbaev Azizbek IEMIT-23
-Zhusupbekov Aktan IEMIT-23
-Almazov Aidarbek IEMIT-23
 
 
 
