@@ -1,59 +1,84 @@
-Fitness Tracker project
-Contributors:
-Kazakbaev Azizbek IEMIT-23
-Zhusupbekov Aktan IEMIT-23
-Almazov Aidarbek IEMIT-23
+# Fitness Tracker
 
-6.UML Diпgram:[https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing](https://www.canva.com/design/DAGZkRXeaDw/lwGaAhaJCcA3SZ0ruG08Og/edit?utm_content=DAGZkRXeaDw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+## Contributors
+- **Kazakbaev Azizbek** (IEMIT-23)
+- **Zhusupbekov Aktan** (IEMIT-23)
+- **Almazov Aidarbek** (IEMIT-23)
 
+---
 
+## Project Title
+**Fitness Tracker**
 
-7.Links:
+---
 
-presentation:https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true
-documentation google docs: https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing
+## Description
+The purpose of the **Fitness Tracker** project is to help users monitor and improve their physical health and fitness. This application provides a comprehensive platform for users to:
+- Log and track basic workout information.
+- Define and achieve fitness goals.
+- Calculate and monitor their BMI (Body Mass Index).
 
-1. Project title: Fitness Tracker
+---
 
+## Key Features
 
-2.Description:The purpose of the Fitness Tracker project is to help users monitor and improve their physical health and fitness. 
-It provides a comprehensive platform for users to log and track basic workout info like main goals, tracking their activity and 
-calculating BMI.
+### 10 Core Functions
 
+1. **DBConnection**
+   - Manages the database connection and serves as the core for linking the application to the database.
 
-3 10 key functions:
- 1. DBConnection –
-Manages the database connection. A core function for linking the application to the database.
- 2. AppController –
-The main application controller that handles routing and coordinates user requests.
- 3. LoginController –
-Processes user authentication: verifies credentials and grants access.
- 4. RegisterController –
-Handles the registration of new users by adding their data to the database.
- 5. UserController –
-Manages user profiles, providing functionality for viewing and editing user data.
- 6. UserDAO –
-Data Access Object for users. Contains functions for retrieving, adding, and updating user data.
- 7. UserDetailsDAO –
-An additional DAO class for managing detailed user information, such as goals or activity.
- 8. GoalDAO –
-Manages user goals: adding, updating, and deleting fitness-related goals.
- 9. HashUtil –
-A utility for hashing passwords. Ensures the security of stored sensitive data.
- 10. Main –
-The entry point of the application. Initializes key components and starts the program.
+2. **AppController**
+   - The main application controller that handles routing and coordinates user requests.
 
-These functions provide the core operations of the program: authentication, registration, database access, and managing users and their fitness goals.
+3. **LoginController**
+   - Processes user authentication by verifying credentials and granting access.
 
+4. **RegisterController**
+   - Handles user registration by adding their data to the database.
 
+5. **UserController**
+   - Manages user profiles, including functionality for viewing and editing user data.
 
-4.Team Members and Roles
- ◦ Aziz: Database and Backend Developer
- ◦ Aidarbek: Frontend Developer
- ◦ Aktan: Controller and Integration Developer
+6. **UserDAO**
+   - A Data Access Object (DAO) for users, containing functions for retrieving, adding, and updating user data.
 
+7. **UserDetailsDAO**
+   - Manages detailed user information, such as fitness goals and activity tracking.
 
-5.Screenshots: 
+8. **GoalDAO**
+   - Handles user goals, including adding, updating, and deleting fitness-related goals.
+
+9. **HashUtil**
+   - A utility for hashing passwords to ensure secure storage of sensitive data.
+
+10. **Main**
+    - The entry point of the application. Initializes key components and starts the program.
+
+---
+
+## Team Members and Roles
+- **Kazakbaev Azizbek**: Database and Backend Developer
+- **Aidarbek Almazov**: Frontend Developer
+- **Zhusupbekov Aktan**: Controller and Integration Developer
+
+---
+
+## UML Diagram
+- [View UML Diagram](https://drive.google.com/file/d/1L8wbXvmA6QEyIyRY4_krgXrJygtp9x6R/view?usp=sharing)
+
+---
+
+## Links
+
+- **Presentation**: [Google Slides](https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true)
+- **Documentation**: [Google Docs](https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing)
+
+---
+
+## Screenshots
+
+---
+
 
 
 
