@@ -1,4 +1,4 @@
-# Fitness Tracker
+#### Fitness Tracker
 
 ## Contributors
 - **Kazakbaev Azizbek** (IEMIT-23)
