@@ -72,6 +72,8 @@ The purpose of the **Fitness Tracker** project is to help users monitor and impr
 
 - **Presentation**: [Google Slides](https://docs.google.com/presentation/d/1cZHkekPS2UGW5dnFMeXWuAf8YJT0Des8/edit?usp=sharing&ouid=114367629336058154276&rtpof=true&sd=true)
 - **Documentation**: [Google Docs](https://docs.google.com/document/d/1_LlvPNE4q_id3tU8AIw1OFMvQMjS4FU1me5HuHrlp0Y/edit?usp=sharing)
+- **E.R model**: [Google Docs](https://drive.google.com/file/d/1QOhk0xbPq1kPuyVWviLy2FZboE8HdpnX/view?usp=sharing)
+- **You-tube video of our project**: [YouTube]()
 
 ---
 
